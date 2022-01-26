@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "BMarmy";
+  src: local("BMarmy"),
+   url("./fonts/BMarmy.ttf") format("truetype");
+  
+  }
+  
+body {
+  margin: 0;
+  font-family: BMarmy;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: BMarmy;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
